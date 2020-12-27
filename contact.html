@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eco-friendly guided cycling tours. contact us by form. Guided Leeds bicycle tours. Leeds, United Kingdom">
+    <title>Re-cycle Contact Us Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Logo-->
+    <div class="logo">
+        <a href="index.html">
+            <img class="logo" src="images/logo.jpg" alt="bicycle logo"/>
+        </a>
+    </div>
+        <!--Nav-->
+        <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu">
+        <nav class="nav-con">
+            <ul class="main-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="about.html">Who We Are</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+        <div class="border"></div>
+    <header class="contact-header">
+        <h1>Contact Us</h1>
+        <p><a href="mailto:mejmarius@gmail.com"><strong>Email:</strong> mejmarius@gmail.com</a></p>
+        <p><a href="tel:5551234567"><strong>Phone:</strong> +47 99867203</a></p>
+    </header>
+    <!--Form-->
+    <div class="form-container">
+        <form action="#" method="GET" id="contactForm" class="contact-form">
+            <p class="form-text"><strong>Contact us by form:</strong></p>
+            <div class="info">
+                <label for="fname">Full name:</label>
+                <input type="text" id="fname" name="fname" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Telephone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="other-info">
+                <p>Is your enquiry regarding an existing booking</p>
+                <input type="radio" id="yes" name="answer" value="yes" required>
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="answer" value="no" checked required>
+                <label for="no">No</label>
+            </div>
+                
+            <div class="enquiry-type">
+                <select name="enquiry" id="enquiry" required>
+                <option disabled="disabled" selected="selected" value="">Enquiry Type</option>
+                <option value="option-1">New Booking</option>
+                <option value="option-2">Trip Information</option>
+                <option value="option-3">General Enquiry</option>
+                </select><br>
+            </div>
+
+                <textarea id="message" name="message" rows="10" cols="33" required></textarea> <br>
+
+            <div class="sub-info">
+                <input type="checkbox" id="subscribe" name="subscribe" value="choose">
+                <label for="subscribe">Subscribe to receive news and promotions</label><br>
+            </div>
+            
+                <button class="form-button" type="submit" form="contactForm" value="Submit">Submit Enquiry</button>
+        </form>
+</div>
+
+
+<div class="border"></div>
+
+<footer>
+    <ul class="social-media">
+        <li><a href="#" class="fa fa-facebook"></a></li>
+        <li><a href="#" class="fa fa-instagram"></a></li>
+    </ul>
+    <p class="footer-text">HTML & CSS Course Assignment</p>
+    <p>&#169;copyright Robust Design 2020</p>
+</footer>
+</body>
+</html>

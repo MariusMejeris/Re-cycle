@@ -1,0 +1,431 @@
+/*Basic Style*/
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+p,
+a {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.border {
+  border: 1px solid #323232;
+  margin: 25px 0;
+}
+/************************LOGO AND NAV***************************
+***************************************************************/
+/*LOGO*/
+.logo {
+  width: 80px;
+  margin-top: 15px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+/*NAV*/
+.nav-con {
+  display: none;
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: left;
+}
+.main-nav {
+  list-style-type: none;
+  padding: 20px 0;
+}
+.main-nav li {
+  margin: 15px 0;
+}
+.main-nav li a {
+  color: #323232;
+  font-size: 24px;
+  transition: 0.4s ease;
+  border-bottom: 1px solid #ffffff;
+}
+
+.main-nav li a:hover {
+  color: #435a69;
+  border-bottom: 1px solid #435a69;
+}
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+.fas {
+  float: right;
+  position: relative;
+  bottom: 55px;
+  padding: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/************************HOME PAGE***************************
+************************************************************/
+/*Header styles*/
+.header-1 {
+  margin-bottom: 55px;
+}
+.header-1 h1 {
+  font-size: 56px;
+  color: #435a69;
+  text-align: center;
+}
+
+.header-1 p {
+  font-size: 36px;
+  color: #323232;
+  padding: 25px 0;
+}
+
+.header-2 {
+  width: 100%;
+  height: 300px;
+  background: url("images/people-on-the-bicycle-in-country-side.jpg") no-repeat
+    center;
+  background-size: cover;
+}
+
+.header-2 a {
+  position: relative;
+  top: 230px;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 5px 8px;
+  transition: 0.4s ease;
+}
+
+.header-2 a:hover {
+  background: #ffffff;
+  color: #435a69;
+}
+
+/*Top places styles*/
+.top-section {
+  height: 200px;
+  background-color: #ffcd3a;
+}
+.top-section h2 {
+  font-size: 36px;
+}
+.top-section p {
+  font-size: 26px;
+  margin: 15px 0;
+}
+
+.top-section h2,
+.top-section p {
+  position: relative;
+  top: 50px;
+}
+/*cards section*/
+.cards-section {
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  color: #323232;
+}
+
+.cards-section h3 {
+  font-size: 22px;
+}
+.cards-section p {
+  padding: 15px 0;
+}
+
+.cards-section img {
+  width: 100%;
+  height: 250px;
+  margin-top: 25px;
+}
+
+a.button {
+  font-size: 18px;
+  color: #435a69;
+  border: 1px solid #435a69;
+  border-radius: 10px;
+  padding: 5px 8px;
+  transition: 0.4s ease;
+}
+
+a.button:hover {
+  background-color: #435a69;
+  color: #ffffff;
+}
+.card {
+  margin-top: 25px;
+  max-width: 450px;
+  margin: 0 auto;
+}
+/************************TOURS PAGE***************************
+*************************************************************/
+.tours-header {
+  height: auto;
+  background-color: #ffcd3a;
+  color: #000000;
+  padding-bottom: 15px;
+}
+
+.tours-header h1 {
+  font-size: 36px;
+  padding: 25px 0;
+}
+.tours-header p {
+  font-size: 20px;
+}
+.tours-header h1,
+.tours-header p {
+  width: 90%;
+  margin: auto;
+  text-align: left;
+}
+/************************ABOUT US PAGE***************************
+****************************************************************/
+
+.about-section {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.about-info h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-info p {
+  font-size: 20px;
+  padding-top: 12px;
+}
+
+.about-image img {
+  margin-top: 15px;
+  width: 100%;
+  margin: 0 auto;
+}
+/************************CONTACT PAGE***************************
+*************************************************************/
+
+.contact-header,
+.form-container {
+  text-align: left;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.contact-header h1 {
+  font-size: 36px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.contact-header p {
+  padding: 10px 0;
+  color: #000000;
+}
+
+.contact-header p a {
+  color: #000000;
+  font-size: 20px;
+}
+
+.form-text {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+
+.info label {
+  font-size: 22px;
+}
+.info input {
+  width: 100%;
+  padding: 15px 0;
+  margin: 10px 0;
+}
+
+.other-info {
+  margin: 10px 0;
+}
+.other-info p,
+.other-info label {
+  font-size: 20px;
+}
+
+.enquiry-type {
+  margin: 15px 0;
+}
+
+.enquiry-type select {
+  width: 100%;
+  padding: 15px 0;
+  font-size: 20px;
+  opacity: 0.7;
+}
+textarea {
+  width: 100%;
+  padding: 5px;
+}
+.sub-info {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.form-button {
+  font-size: 26px;
+  text-align: center;
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  border: 1px solid #435a69;
+  padding: 10px 0;
+  transition: 0.4s ease;
+}
+
+.form-button:hover {
+  background-color: #435a69;
+  color: #ffffff;
+}
+/*footer styles*/
+footer {
+  height: 150px;
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+.social-media li {
+  display: inline;
+}
+
+.fa {
+  width: 50px;
+  padding: 15px 0;
+  border-radius: 10px;
+  background: #000000;
+  color: white;
+  transition: 0.4s ease;
+}
+
+.fa:hover {
+  background: #435a69;
+}
+
+.footer-text {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+/************************MEDIA QUERIES***************************
+***************************************************************/
+
+@media only screen and (min-width: 720px) {
+  /************************HOME PAGE*****************************
+***************************************************************/
+
+  /*Nav*/
+  .fas {
+    display: none;
+  }
+
+  .nav-con {
+    display: inline;
+    text-align: center;
+  }
+  li {
+    display: inline;
+    text-align: center;
+    padding: 0 20px;
+  }
+  /*home header*/
+  .header-2 {
+    height: 400px;
+    background-attachment: fixed;
+  }
+
+  .header-2 a {
+    position: relative;
+    top: 320px;
+  }
+  /*Top places*/
+  .cards-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .card {
+    flex: 0 1 40%;
+    max-width: 450px;
+  }
+  /*********************TOURS PAGE*******************************
+***************************************************************/
+  .tours-header h1 {
+    text-align: center;
+  }
+
+  .tours-header p {
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  /*********************ABOUT PAGE*******************************
+***************************************************************/
+
+  .about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 60vw;
+  }
+  .about-section img {
+    max-width: 80%;
+  }
+  .about-info {
+    margin-right: 15px;
+  }
+  .about-image {
+    margin-left: 15px;
+  }
+  /*********************CONTACT PAGE*****************************
+***************************************************************/
+  .form-container,
+  .contact-header p {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
